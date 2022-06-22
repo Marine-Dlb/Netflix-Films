@@ -1,0 +1,206 @@
+html, body{
+    background-color: black !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+.netflix{
+    position: relative;
+    width: 308px;
+    height: 330px;
+    overflow: hidden;
+    transform: scale(1);
+    animation: anim-netflix 1s ease-in forwards;
+    animation-delay: 0.7s !important;
+}
+
+
+.animation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: animation 2s linear forwards;
+    animation-delay: 0.5s !important;
+}
+
+ .btn{
+    
+    border-radius: 30px !important;
+    height: 70px !important;
+    width: 300px !important;
+    visibility: hidden;
+    animation: btn 50000s ;
+    animation-delay: 3s;
+    
+
+}
+
+.n-1{
+    background-color: #b10510;
+    height: 330px;
+    width: 45px;
+    position: absolute;
+    left: 56%;
+    top: 19px;
+    transform: rotateZ(36deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: anim-n-1 0.7s linear forwards;
+    animation-delay: 0.5s;
+}
+
+.n-3{
+    background-color: #b10510;
+    height: 330px;
+    width: 45px;
+    position: absolute;
+    left: 30%;
+    top: 19px;
+    transform: rotateZ(-36deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: anim-n-3 0.7s linear forwards;
+    animation-delay: 0.5s;
+}
+
+.n-4{
+    background-color: #b10510;
+    height: 115px;
+    width: 45px;
+    position: absolute;
+    left: 74%;
+    top: -11px;
+    transform: rotateZ(-52.4deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    animation: anim-n-4 0.7s linear forwards;
+    animation-delay: 0.5s;
+}
+
+.n-5{
+    background-color: #b10510;
+    height: 115px;
+    width: 45px;
+    position: absolute;
+    left: 12%;
+    top: -11px;
+    transform: rotateZ(52.4deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    animation: anim-n-5 0.7s linear forwards;
+    animation-delay: 0.5s;
+}
+
+.n-6{
+    background-color: #b10510;
+    height: 125px;
+    width: 45px;
+    position: absolute;
+    left: 53%;
+    top: -5px;
+    transform: rotateZ(46deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    animation: anim-n-6 0.7s linear forwards;
+    animation-delay: 0.5s; 
+}
+
+.n-2{
+    background-color: #b10510;
+    height: 125px;
+    width: 45px;
+    position: absolute;
+    left: 33%;
+    top: -5px;
+    transform: rotateZ(-46deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    animation: anim-n-2 0.7s linear forwards; 
+    animation-delay: 0.5s; 
+    
+}
+
+
+@keyframes anim-netflix{
+    0%{
+        transform: scale(1); 
+    }
+    100%{
+        transform: scale(2);
+        left: 0%;
+    }
+
+       
+    
+}
+
+@keyframes anim-n-1{
+    0%{
+        left: -45%; top: 312px;
+    }
+    100%{
+        left: 56%; top: 19px;
+    }
+}
+
+@keyframes anim-n-3{
+    0%{
+        left: 130%; top: 312px;
+    }
+    100%{
+        left: 30%; top: 19px;
+    }
+}
+
+@keyframes anim-n-4{
+    0%{
+        left: 112%; top: -111px;
+    }
+    100%{
+        left: 74%; top: -11px;
+    }
+}
+
+@keyframes anim-n-5{
+    0%{
+        left: -27%; top: -111px;
+    }
+    100%{
+        left: 12%; top: -11px;
+    }
+}
+
+@keyframes anim-n-6{
+    0%{
+        left: -114%; top: -122px;
+    }
+    100%{
+        left: 53%; top: -5px;
+    }
+}
+
+@keyframes anim-n-2{
+    0%{
+        left: -28%; top: -122px;
+    }
+    100%{
+        left: 33%; top: -5px;
+    }
+}
+
+@keyframes animation{
+    0%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes btn{
+    0%{
+        visibility: hidden; 
+    }
+    100%{
+        visibility: visible;
+    }
+}

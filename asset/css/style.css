@@ -1,0 +1,71 @@
+html, body{
+    background-color: black;
+}
+
+
+/* NAVBAR */
+.navbar{
+    background: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+.navbar-link{
+    position: absolute;
+    left: 45%;
+    
+   
+}
+
+.button{
+    position: absolute;
+    right: 2%;
+}
+
+/* HERO-HEADER */
+.header{
+    margin-top: -1px;
+    height: 25vh;
+    background-color: black;
+}
+
+
+
+.container{
+    background-color: black;
+}
+
+.page{
+    margin-top: -1px;
+    background-color: black;
+}
+
+.card{
+    margin: 15px 15px 15px 15px;
+    color: white;
+    
+}
+
+.card-body{
+    background-color: black;
+}
+
+.card-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.img{
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footer{
+    height: 10vh;
+}

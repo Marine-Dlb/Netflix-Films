@@ -1,0 +1,15 @@
+html, body{
+    background-color: black;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+video{
+    height: 50vh;
+    width: 50vw;
+}

@@ -1,0 +1,66 @@
+html{
+    background-color: black;
+}
+body{
+    background-color: black !important;
+}
+.navbar{
+    background-color: black;
+    
+}
+.content{
+    margin-top: -27px;
+    margin-bottom: -5px;
+    background-color: black;
+}
+
+.texte{
+    font-weight: bold;
+    color: white;
+    font-size: 3.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    max-width: 500px;
+}
+.pp1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.pp1:hover img{
+    border: 5px solid white;
+    overflow: hidden;
+}
+
+.texte1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.pp2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.pp2:hover img{
+    border: 5px solid white;
+    overflow: hidden;
+}
+
+.texte2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
